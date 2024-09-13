@@ -1,0 +1,7 @@
+runtime: java11
+instance_class: F2
+entrypoint: java -jar target/poc-storage-0.1.0.jar
+
+handlers:
+- url: /.*
+  script: auto
